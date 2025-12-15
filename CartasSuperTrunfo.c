@@ -41,5 +41,16 @@ scanf("%d", &pontosTuristicos1);
  
   // Área para exibição dos dados da cidade
 
+printf("\n============================\n");
+printf("        CARTA 1\n");
+printf("============================\n");
+
+printf("Codigo da carta: %c%02d\n", estado1, cidade1);
+printf("Cidade: %s\n", nomeCidade1);
+printf("Populacao: %ld\n", populacao1);
+printf("Area: %.2f\n", area1);
+printf("PIB: %.2f\n", pib1);
+printf("Pontos Turisticos: %d\n", pontosTuristicos1);
+
 return 0;
 } 
