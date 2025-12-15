@@ -18,6 +18,14 @@ int pontosturisticos1;
 
 printf("=== Cadastro da Carta 1 ===\n");
 
+printf(" A ");
+scanf(" %c", &estado1);
+
+printf(" 1 ");
+scanf(" %d", &cidade1);
+
+printf(" Santo Domingo - Republica Dominicana ");
+scanf(" %59[^\n]", nomeCidade1);
   // Área para exibição dos dados da cidade
 
 return 0;
